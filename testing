@@ -1,0 +1,7 @@
+log in to
+https://dev-idsr-sl.ehealthafrica.org/dhis-web-commons/security/login.action
+with `dhis2-dev-admin` credentials
+
+inside `Search app`, typing `health` will pull the HFR app
+
+log in to the app using `SL HFR Dev Dashboard` credentials

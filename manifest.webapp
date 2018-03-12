@@ -1,0 +1,23 @@
+{
+    "version": "0.1",
+    "name": "Health Facility Registry App",
+    "description": "HRF test Packaged App",
+    "launch_path": "dist/index.html",
+    "appType": "APP",
+    "icons": {
+        "16": "dist/static/media/sl-app-launcher.8f91d5d6.png",
+        "48": "dist/static/media/sl-app-launcher.8f91d5d6.png",
+        "128": "dist/static/media/sl-app-launcher.8f91d5d6.png"
+    },
+    "developer": {
+        "name": "HRF Team",
+        "url": ""
+    },
+    "default_locale": "en",
+    "activities": {
+        "dhis": {
+            "href": "*",
+            "namespace": "hfr-sl"
+        }
+    }
+}

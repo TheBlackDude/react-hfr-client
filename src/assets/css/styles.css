@@ -1,0 +1,235 @@
+html, body, .content{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans',sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.diff-container {
+  background: #f9f9f9;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.img-center {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.copyright, .powered-div {
+  padding-top: 20px;
+  color: #9c9c9c;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.copyright {
+  padding-top: 40px;
+  color: #fff;
+}
+
+.navbar-custom .nav li a {
+  text-transform: none;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.navbar-custom .nav li {
+ margin-left: 10px;
+}
+
+/******* Login *********/
+
+.login-bg {
+  background: linear-gradient(rgba(78, 198, 83, 0.85), rgba(33, 68, 100, 0.85)) repeat scroll 0 0%, rgba(246, 246, 246, 0.85) url("../images/login-bg.jpg") no-repeat center center;
+  height: 100vh;
+}
+
+.login-box {
+  background: rgba(256, 256, 256, 0.4);
+  border-radius: 10px;
+  padding: 40px 30px;
+}
+
+.login-txtbx {
+  height: 45px;
+  padding: 14px 16px;
+  border: 0px;
+  text-align: center;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
+}
+
+.vertical-offset-100 {
+  padding-top: 100px;
+}
+
+.login-center-box {
+  margin-right: auto;
+  margin-left: auto;
+}
+/******* Hearder and Menu *********/
+header{
+  padding-bottom: 5px;
+}
+.navbar-custom {
+    background-color: #FFFFFF;
+    padding: 0px 0;
+    transition: padding .3s;
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, .2)
+}
+
+.navbar-custom .nav li{
+  padding-top: 20px;
+}
+
+.navbar-custom .nav li a {
+    text-transform: none;
+    letter-spacing: 1px;
+    color: #18465e;
+    font-size: 12px;
+    font-weight: 300;
+    padding-right: 5px;
+    margin-right: 50px;
+    height: 40px;
+    display: inline-block;
+}
+
+/* .navbar-custom .nav li a.active{
+    border-bottom: 2px solid #999999;
+} */
+
+.logout a.active{
+  border: none !important;
+}
+
+  .navbar-custom .nav li a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.navbar-custom .navbar-brand {
+  color: #666666; 
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: #666666; 
+}
+
+.navbar-custom .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02); 
+}
+
+.navbar-custom .navbar-toggle {
+  background-color: #fed136;
+  border-color: #fed136;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px; 
+}
+
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #666666; }
+
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: #666666;
+  outline: none;
+  border-radius: 0 !important; 
+}
+
+.navbar-custom .navbar-nav > .active > a {
+  border-radius: 0 !important;
+  color: #18465e;
+  background-color: transparent;
+  border-radius: 0px; 
+}
+
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #666666;
+  background-color: transparent;
+  border-radius: 0px !important; 
+}
+
+.navbar-collapse .fa{
+  padding-right: 10px;
+}
+.no-padding{
+  padding: 0px;
+}
+
+.logout {
+    /* border: 1px solid;
+    border-color: #fff #ccc #f5f5f5; */
+    margin-left: 2em !important;
+    /* padding: .2em .5em;
+    padding-top: 3px !important; */
+}
+/******* Footer *********/
+footer {
+    background: #18465e;
+    text-align: center;
+    padding: .7em 1em .1em;
+}
+footer span, footer span.copyright {
+    line-height: 40px;
+    text-transform: none;
+}
+footer span, footer span.copyright, footer ul li a {
+    color: #fff;
+    font-weight: 300;
+    font-size: 11px;
+}
+  .copyright {
+    padding-top: 40px;
+    color: #fff;
+}
+
+.page-heading{
+    color: #545454;
+    font-size: 28px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.filter-row{
+  padding: 10px 0px;
+}
+
+/******* About *********/
+.about p {
+    text-align: left;
+    font-weight: 300;
+}
+.intro-heading {
+    padding: 2em 0 1.5em 0;
+    background: linear-gradient(rgba(78,198,83,.5),rgba(33,68,100,.85)) 0 0%,rgba(246,246,246,.85) url(../../assets/images/home-bg.jpg) center center;
+    color: #fff;
+    border-bottom: 4px solid #f5f5f5;
+}
+.intro-heading h1 {
+    font-weight: 300;
+    font-size: 25px;
+}
+.abt-first-info {
+    background: #f5f5f5;
+    padding: 20px 0;
+}
+.map-display-pg {
+    padding: 40px 0;
+}
+.about-hfr-p {
+    padding-top: 100px;
+}

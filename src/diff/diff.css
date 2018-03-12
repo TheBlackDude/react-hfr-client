@@ -1,0 +1,116 @@
+/* GENERAL TABLE STYLE */
+div.th.tablo{
+    border:1px solid rgba(114,127,144,0.4);
+    margin:0px;
+    border-radius: 2px;
+}
+.th.tablo .tablo-header{
+    border-bottom:1px solid rgba(114,127,144,0.4);
+    padding:5px;
+    position: relative;
+}
+.th.table-search.form-control{
+    border:0;
+    padding-left:30px;
+    font-size: 1em;
+}
+.th.icon-search{
+    position: absolute;
+    top:10px;
+    left:20px;
+}
+.th .btn{
+    font-size:0.8em;
+    border-color: rgba(114,127,144,0.4);
+}
+.th .btn i{
+    display: inline-block;
+}
+.tablo-header .btn-group{
+    margin:2px;
+}
+div.th.tablo table{
+    width:100%;
+    border-collapse: collapse;
+}
+.tablo table thead{
+    background: rgba(114,127,144,0.05);
+    font-size: 0.7em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom:1px solid rgba(114,127,144,0.4);
+}
+.tablo table thead th{
+    padding:10px;
+}
+.tablo table tbody tr{
+    border-bottom:1px solid rgba(114,127,144,0.1);
+    vertical-align: middle;
+}
+.tablo table tbody tr td{
+    padding:10px;
+    font-size:0.8em;
+    height: 48px;
+    vertical-align: middle;
+    word-wrap: break-word;
+}
+.tablo table tbody tr:nth-child(even){
+    background: rgba(94,122,183,0.05);
+}
+.th.tablo .checkbox{
+    margin:0;
+    font-size:20px;
+}
+.th.tablo .checkrow{
+    width:30px;
+}
+
+.filter-row .Select {
+    position: relative;
+    width: 300px;
+    font-size: 0.8em;
+    float: right;
+  }
+.filter-row .Select-control {
+   border-radius: 0px;
+  }
+  
+  .action-icon .fa{
+      font-size: 16px;
+      color: #18465e;
+      -moz-transition: padding 150ms ease-out 0s;
+      -ms-transition: padding 150ms ease-out 0s;
+      -o-transition: padding 150ms ease-out 0s;
+      -webkit-transition: padding 150ms ease-out 0s;
+      transition: padding 150ms ease-out 0s;
+  }
+
+  .action-icon .fa:hover{
+    padding-left: 5px;
+    color: #4289CD;
+}
+
+.pagination {
+  padding-top: 30px;
+  border-radius: 4px;
+  float: right;
+  font-size: 12px;
+}
+
+.pagination > li > a.page-link {
+  color: #666666;
+}
+
+.pagination > li.page-item.active > a.page-link {
+  background-color: #666666;
+  border: 1px solid #666666;
+}
+
+
+/* .badge-warning{
+    color: #ffffff;
+    background: #FF9B36;
+}
+.badge-pill{
+    padding: 0.4em 0.8em;
+} */
